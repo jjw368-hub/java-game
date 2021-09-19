@@ -19,5 +19,7 @@ public class Scenes {
 
     public static char AllScenes[][][] = {SceneOne, SceneTwo};
 
-    public static int CurrentScene = 0;
+    public static int CurrentSceneNumber = 0;
+
+    public static char CurrentSceneState[][] = AllScenes[CurrentSceneNumber];
 }
