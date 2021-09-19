@@ -1,5 +1,4 @@
 package Entity;
-import AllEntities.Entities;
 
 public class Character {
 
